@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/HyperRouteWebsite/static/css/main.f3bc3b13.css",
+    "main.js": "/HyperRouteWebsite/static/js/main.da5c0dc5.js",
+    "static/js/453.dd2e6ac1.chunk.js": "/HyperRouteWebsite/static/js/453.dd2e6ac1.chunk.js",
+    "index.html": "/HyperRouteWebsite/index.html",
+    "main.f3bc3b13.css.map": "/HyperRouteWebsite/static/css/main.f3bc3b13.css.map",
+    "main.da5c0dc5.js.map": "/HyperRouteWebsite/static/js/main.da5c0dc5.js.map",
+    "453.dd2e6ac1.chunk.js.map": "/HyperRouteWebsite/static/js/453.dd2e6ac1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3bc3b13.css",
+    "static/js/main.da5c0dc5.js"
+  ]
+}
