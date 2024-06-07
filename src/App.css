@@ -1,15 +1,24 @@
-/* App.css */
 body {
   background-color: #dfe7f4;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
 
-.container-md {
-  height: 100vh;
-  margin-top: 10vh;
+/* General padding for sections to avoid content going under the navbar */
+.container-md,
+.container-sm,
+section {
+  padding-top: 2vh;
 }
 
-.container-sm {
-  margin-top: 10vh;
+/* Adjust padding for mobile devices */
+@media (max-width: 768px) {
+  .container-md,
+  .container-sm,
+  section {
+    padding-top: 0vh; /* More top padding for mobile devices */
+  }
 }
 
 span {
@@ -31,3 +40,8 @@ span {
 #navbarNav li a:hover {
   color: #4034cf;
 }
+
+.navbar {
+  /* margin-bottom: 60px; Adds space below the navbar */
+}
+

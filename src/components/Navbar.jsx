@@ -5,10 +5,10 @@ import logo from '../assets/logohyperroute.png';
 
 export const Navbar = () => {
   return (
-    <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar sticky-top navbar-expand-lg bg-body-tertiary" style={{height : '15vh'}}>
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          <img src={logo} width="90" height="54" alt="Hyper Route Logo" />
+          <img src={logo} width="90vh" height='50vh' alt="Hyper Route Logo" />
         </a>
         <button
           className="navbar-toggler"
